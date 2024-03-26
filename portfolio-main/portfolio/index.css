@@ -13,7 +13,7 @@ body {
 
 header {
     min-width: 500px;
-    background-color: rgb(109, 108, 108);
+    background-color: black;
     padding: 25px;
     display: flex;
     justify-content: space-between;
@@ -53,6 +53,10 @@ ul {
     background: linear-gradient(45deg, blue, orangered, rgba(255, 255, 0, 0.87));
     background-size: 400% 100%;
     animation: degrade 8s linear infinite alternate;
+}
+.logo-rafa:hover {
+    box-shadow: 2px 2px black;
+    transition: 300ms;
 }
 .logo-rafa a {
     display: flex;
@@ -97,7 +101,7 @@ li {
     padding: 15px;
     width: 450px;
     max-height: 280px;
-    background-color: gray;
+    background-color: rgb(0, 89, 255);
 }
 .tecs ul {
     margin-left: 7px;
@@ -116,9 +120,10 @@ li {
     color: white;
     text-decoration: none;
     outline-color: transparent;
+    background-color: rgba(43, 42, 42, 0.849);
 }
 .tecs ul li a:hover {
-    transition: 250ms;
+    transition: 420ms;
     margin-left: 4px;
     box-shadow: 1px 1px 0px 0px black;
     background-color: rgba(185, 181, 181, 0.801);
@@ -139,7 +144,7 @@ img {
     padding-left: 45px;
     margin-left: 25px;
     display: flex;
-    background-color: gray;
+    background-color: black;
     max-height: 600px;
 }
 .textotitulo p {
@@ -172,23 +177,43 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .card {
-    border: 1px solid white;
+    
     padding: 16px;
-    width: 300px;
+    width: 250px;
+    height: 400px;
     text-align: center;
     box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.226);
+}
+.card a{
+    color: white;
 }
 
 .card img{
-    max-width: 100%;
+    max-width: 180px;
     border-radius: 8px;
+    box-shadow: 2px 3px 0px 0px rgb(58, 56, 56);
+}
+.card img:hover {
+    transition: 300ms;
+    box-shadow: 8px 4px 0px 0px rgb(58, 56, 56);
+}
+.card:hover {
+    box-shadow: 2px 4px 0px 0px rgb(58, 56, 56);
+    transition: 400ms;
+    padding: 1px;
+    border-radius: 20px;
+    padding-top: 1px;
 }
 
 .main-bottom {
     border-radius: 25px;
     padding: 25px;
     background-color: gray;
-    height: 500px;
+    height: 600px;
 }
