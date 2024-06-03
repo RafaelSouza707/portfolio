@@ -52,7 +52,7 @@ ul {
     text-transform: uppercase;
     background: linear-gradient(45deg, blue, orangered, rgba(255, 255, 0, 0.87));
     background-size: 400% 100%;
-    animation: degrade 8s linear infinite alternate;
+    animation: degrade 3s linear infinite alternate;
 }
 .logo-rafa:hover {
     box-shadow: 2px 2px black;

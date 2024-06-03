@@ -69,39 +69,3 @@ function carregar() {
 }
 
 mostraCard()
-
-
-
-
-/*
-let container = document.createElement("div");
-document.body.appendChild(container);
-container.style.textAlign = "center";
-
-function createCard(i = 1, names, rates) {
-    // Elementos
-    let card = document.createElement('div');
-    let title = document.createElement('h3');
-    let rate = document.createElement('p');
-    let img = document.createElement('img');
-
-    // Content
-    let head = document.createTextNode('names');
-    let ranke = document.createTextNode('rates');
-
-    img.src = `img/${i}.jpg`;
-
-    title.appendChild(head);
-    rate.appendChild(ranke);
-
-    card.appendChild(title);
-    card.appendChild(rate);
-    card.appendChild(img);
-    container.appendChild(card);
-    
-}
-
-function carregar() {
-    
-}
-*/
