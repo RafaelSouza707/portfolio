@@ -96,8 +96,8 @@ li {
 .part-esquero {
     border-radius: 18px;
     padding: 15px;
-    width: 450px;
-    max-height: 250px;
+    max-width: 450px;
+    max-height: 280px;
     background-color: rgb(37, 24, 24);
 }
 .tecs ul {
@@ -119,14 +119,14 @@ li {
 }
 .tecs ul li a:hover {
     transition: 500ms;
-    padding: 6px;
+    padding: 5px;
     box-shadow: 1px 1px 0px 0px black;
     background-color: white;
     color: black;
     border-radius: 10px;
 }
 
-img {
+.imagem01 img {
     image-rendering: auto;
     max-width: 240px;
     border-radius: 20px;
@@ -168,8 +168,8 @@ img {
 }
 
 .item-card {
-    height: 350px;
-    width: 250px;
+    height: 300px;
+    width: 280px;
     justify-content: center;
     align-self: center;
     flex-direction: column;
@@ -177,6 +177,8 @@ img {
     border-radius: 15px;
     padding: 15px;
     margin: 25px;
+    overflow: hidden;
+    border: solid red;
 }
 
 .descricao-card {
@@ -199,9 +201,30 @@ img {
 section {
     display: flex;
     justify-items: auto;
+    flex-wrap: wrap;
 }
 
 .card-deck {
     display: flex;
     justify-content: center;
+}
+
+.item-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.header-card {
+    padding-top: 10px;
+}
+
+.img-card img {
+    width: 90%;
+}
+
+.img-card img:hover {
+    transition: 250ms;
+    width: 100%;
 }

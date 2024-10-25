@@ -1,26 +1,14 @@
 export const dataset = [
     {
-        titulo:"Site",
-        descricao:"dafmkkabkhbfa jknbfaj lbfjla kbfljka hbf abfoakhjb ajhfb aj hfbajh fbajf hba jhab fojahb ajhbf jayb fiouyg ouyabf uoyaseb9 8",
-        imagem:"img/imagem-card/200px.png",
-        link:"#"
+        titulo:"Jogo da Cobrinha.",
+        descricao:"Jogo da cobrinha feito em HTML, CSS e JavaScript.",
+        imagem:"img/imagem-card/gameSnake.png",
+        link:"https://github.com/RafaelSouza707/Jogo-Snake/tree/main/Game_Snake"
     },
     {
-        titulo:"Site1",
-        descricao:"dafmkkabkhbfa jknbfaj lbfjla kbfljka hbf abfoakhjb ajhfb aj hfbajh fbajf hba jhab fojahb ajhbf jayb fiouyg ouyabf uoyaseb9 8",
-        imagem:"img/imagem-card/200px.png",
-        link:"#"
+        titulo:"Jogo Papel, Pedra e Tesoura.",
+        descricao:"Jogo Papel, Pedra e Tesoura feito em HTML, CSS, JavaScript.",
+        imagem:"img/imagem-card/gamePPT.png",
+        link:"https://github.com/RafaelSouza707/Pedra-Papel-e-Tesoura/tree/main/Projeto%20Jogo%20JS"
     },
-    {
-        titulo:"Site2",
-        descricao:"dafmkkabkhbfa jknbfaj lbfjla kbfljka hbf abfoakhjb ajhfb aj hfbajh fbajf hba jhab fojahb ajhbf jayb fiouyg ouyabf uoyaseb9 8", 
-        imagem:"img/imagem-card/200px.png",
-        link:"#"
-    },
-    {
-        titulo:"Site3",
-        descricao:"dafmkkabkhbfa jknbfaj lbfjla kbfljka hbf abfoakhjb ajhfb aj hfbajh fbajf hba jhab fojahb ajhbf jayb fiouyg ouyabf uoyaseb9 8", 
-        imagem:"img/imagem-card/200px.png",
-        link:"#"
-    }
 ]
